@@ -1,0 +1,53 @@
+.box {
+
+	width: 80vw;
+	height: 80vh;
+	background-color: yellow;
+	margin: auto;
+	
+}
+
+#cat1 {
+	display: inline-block;
+	width:50%;
+	height: 100%;
+	background-image: url(https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#cat2 {
+	display:inline-block;
+	float:right;
+	width:50%;
+	height: 100%;
+	background-image: url(https://lh3.ggpht.com/kixazxoJ2ufl3ACj2I85Xsy-Rfog97BM75ZiLaX02KgeYramAEqlEHqPC3rKqdQj4C1VFnXXryadFs1J9A=s0#w=640&h=496);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.catCounters{
+	position: relative;
+	width:80vw;
+	height:5vh;
+	margin:auto;
+}
+
+#cat1Counter{
+	display:inline-block;
+	float:left;
+	width:50%;
+	height:100%;
+	background-color: aqua;
+	
+}
+
+#cat2Counter{
+	display:inline-block;
+	float:right;
+	width:50%;
+	height:100%;
+	background-color: silver;
+}
