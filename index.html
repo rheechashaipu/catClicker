@@ -6,18 +6,34 @@
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
   </head>
   <body>
-  <div class="box">
-  	<div id="cat1">
-  	</div>
-  	<div id="cat2">
-  	</div>
+  <header>
+  	<h1>Cat Clicker Premium</h1>
+  </header>
+  <div id="catNav">
+  <ul id="catList">
+  </ul>
   </div>
-  <div class="catCounters">
-  	<div id="cat1Counter">
-  	</div>
-  	<div id="cat2Counter">
-  	</div>
+  <div id="catName">
+  	
   </div>
+  <div id="catContent">
+  	<img id="catImg" src="" alt="some cat, not cute though">
+  </div>
+  <div id="catCounter">
+  </div>
+  <div id="adminArea">
+  	<button id="adminButton">Admin Mode</button>
+  	<button id="saveButton">Save Changes</button>
+  	<button id="cancelButton">Cancel and close admin</button>
+
+  	<ul id="catInfo">
+  		<li>Cat Name: <input class = "adminChanges" id="newCatName" type="text" value=""></li>
+  		<li>Cat ClickCount: <input class = "adminChanges" id="newClickCount" type="text" value=""></li>
+  		<li>Cat Pic Source: <input class= "adminChanges" id = "newImgSrc" type="text" value=""></li>
+  	</ul>
+  	<p> Click "Admin Mode" to refresh currently set data that can be changed. </p>
+  </div>
+
   <script src="script.js"></script>
   </body>
 </html>
